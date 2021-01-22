@@ -1,0 +1,208 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12250243600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStep.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login into stackoverflow website with valid credentials",
+        "description": "",
+        "id": "login-into-stackoverflow-website;login-into-stackoverflow-website-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3678908600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to stackoverflow website",
+            "match": {
+              "location": "LoginStep.user_navigates_to_stackoveflow_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 991185500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on Log in button",
+            "match": {
+              "location": "LoginStep.user_clicks_on_Log_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 147883700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters a valid username",
+            "match": {
+              "location": "LoginStep.user_enters_a_valid_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88024200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters a valid password",
+            "match": {
+              "location": "LoginStep.user_enters_a_valid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2704858600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on the Submit button",
+            "match": {
+              "location": "LoginStep.user_clicks_on_the_Submit_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4567799800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User is taken to login page successfully",
+            "match": {
+              "location": "LoginStep.user_is_taken_to_login_page_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login into stackoverflow website",
+    "description": "I want to use this template to validate an existing user with their credentials",
+    "id": "login-into-stackoverflow-website",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6689707700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStep.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login into stackoverflow website with valid credentials2",
+        "description": "",
+        "id": "login-into-stackoverflow-website2;login-into-stackoverflow-website-with-valid-credentials2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 197900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigates to stackoverflow website2",
+            "match": {
+              "location": "LoginStep.user_navigates_to_stackoveflow_website2()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 225500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on Log in button2",
+            "match": {
+              "location": "LoginStep.user_clicks_on_Log_in_button2()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 452500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters a valid username2",
+            "match": {
+              "location": "LoginStep.user_enters_a_valid_username2()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 110100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters a valid password2",
+            "match": {
+              "location": "LoginStep.user_enters_a_valid_password2()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1610000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on the Submit button2",
+            "match": {
+              "location": "LoginStep.user_clicks_on_the_Submit_button2()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 115800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User is taken to login page successfully2",
+            "match": {
+              "location": "LoginStep.user_is_taken_to_login_page_successfully2()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login into stackoverflow website2",
+    "description": "I want to use this template to validate an existing user with their credentials2",
+    "id": "login-into-stackoverflow-website2",
+    "keyword": "Feature",
+    "uri": "Login2.feature"
+  }
+]
